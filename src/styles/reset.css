@@ -1,0 +1,42 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ajustes para tipografía */
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+  }
+  
+  /* Listas sin estilos */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Enlaces sin subrayado y con herencia de color */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Quitar estilos por defecto de botones e inputs */
+  button, input, textarea {
+    font: inherit;
+    border: none;
+    background: none;
+  }
+  
+  /* Ajustes de imágenes */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Mejora accesibilidad en elementos ocultos */
+  [hidden] {
+    display: none;
+  }
