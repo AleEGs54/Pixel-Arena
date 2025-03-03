@@ -1,0 +1,10 @@
+header{
+    margin: .5rem 0;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    max-height: 4rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

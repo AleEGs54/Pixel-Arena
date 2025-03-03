@@ -1,3 +1,5 @@
+import '../styles/Nav.css'
+
 function NavItems(){
     return (
         <nav className="navigation-menu">
@@ -28,3 +30,4 @@ export default function Navigation() {
         </>
     )
 }
+
