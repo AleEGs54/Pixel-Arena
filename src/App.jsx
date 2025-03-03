@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from './components/Header'
+import Header from './Components/Header'
 import './styles/reset.css'
 import './styles/App.css'
 
